@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "914844877315",
+    "firebase_url": "https://dialogue-bucket-bfebb.firebaseio.com",
+    "project_id": "dialogue-bucket-bfebb",
+    "storage_bucket": "dialogue-bucket-bfebb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914844877315:android:e2e83b0f9cab9f10",
+        "android_client_info": {
+          "package_name": "com.msuresoft.hitesh.dialoguebucketadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914844877315-b3i5snr5a4d4rufkjnqhlhs9vq2eoo73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPsz3SGVDZ3VL8LfKvBCPrWhSfuwHEwS8"
+        },
+        {
+          "current_key": "AIzaSyDWCNbONdqC5afN0oYSlkng9F5cM9TdQZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914844877315:android:57704dd1c326b10e",
+        "android_client_info": {
+          "package_name": "com.dopdudz.dialoguebucket.dialoguesharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914844877315-b3i5snr5a4d4rufkjnqhlhs9vq2eoo73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPsz3SGVDZ3VL8LfKvBCPrWhSfuwHEwS8"
+        },
+        {
+          "current_key": "AIzaSyDWCNbONdqC5afN0oYSlkng9F5cM9TdQZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914844877315:android:dc4933bd1f7a2f3f",
+        "android_client_info": {
+          "package_name": "com.dialogueapp.dialoguebucket.dialoguesharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914844877315-b3i5snr5a4d4rufkjnqhlhs9vq2eoo73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPsz3SGVDZ3VL8LfKvBCPrWhSfuwHEwS8"
+        },
+        {
+          "current_key": "AIzaSyDWCNbONdqC5afN0oYSlkng9F5cM9TdQZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

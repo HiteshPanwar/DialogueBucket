@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dialogueapp.dialoguebucket.dialoguesharingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="DialogueBazi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.BollywoodActors" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.BollywoodMovies" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.BollywoodSingers" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.BrowseCategories" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.Haryanvi" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.HollywoodActors" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.HollywoodMovies" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.HollywoodShows" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.HollywoodSingers" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.Other" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.Youtubers" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.PunjabiActors" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.PunjabiSingers" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.PunjabiMovies" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.Exclusive" />
+        <activity android:name="com.dialogueapp.dialoguebucket.dialoguesharingapp.categories.BollywoodShows"></activity>
+
+
+        <provider
+            android:name=".GenericFileProvider"
+            android:authorities="${applicationId}.my.package.name.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+
+
+    </application>
+
+</manifest>
